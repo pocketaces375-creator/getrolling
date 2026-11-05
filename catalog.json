@@ -1,0 +1,3114 @@
+{
+ "prices_as_of": "2026-11",
+ "prices_are_estimates": true,
+ "currency": "USD",
+ "notes": "Estimated US street prices during the 2026 DRAM/NAND shortage. All parts are new with full manufacturer warranty. Verify before ordering.",
+ "categories": [
+  {
+   "id": "gpu",
+   "label": "Graphics card (GPU)",
+   "required": true
+  },
+  {
+   "id": "cpu",
+   "label": "Processor (CPU)",
+   "required": true
+  },
+  {
+   "id": "motherboard",
+   "label": "Motherboard",
+   "required": true
+  },
+  {
+   "id": "ram",
+   "label": "Memory (RAM)",
+   "required": true
+  },
+  {
+   "id": "storage",
+   "label": "Storage",
+   "required": true
+  },
+  {
+   "id": "psu",
+   "label": "Power supply",
+   "required": true
+  },
+  {
+   "id": "cooler",
+   "label": "CPU cooler",
+   "required": true
+  },
+  {
+   "id": "case",
+   "label": "Case",
+   "required": true
+  },
+  {
+   "id": "storage2",
+   "label": "Extra storage",
+   "required": false,
+   "source": "storage"
+  },
+  {
+   "id": "wifi",
+   "label": "Wi-Fi card",
+   "required": false
+  },
+  {
+   "id": "os",
+   "label": "Operating system",
+   "required": true
+  }
+ ],
+ "presets": [
+  {
+   "id": "starter",
+   "name": "Starter AI",
+   "blurb": "16 GB GPU: AI images, private chat, learning",
+   "parts": {
+    "gpu": "msi-rtx-5060-ti-16g-ventus-2x-oc",
+    "cpu": "ryzen-7-9700x",
+    "motherboard": "asus-tuf-b650-plus-wifi",
+    "ram": "kingston-fury-beast-32gb-2x16gb-ddr5-6000-cl30",
+    "storage": "wd-black-sn7100-2tb",
+    "psu": "corsair-rm750e",
+    "cooler": "thermalright-peerless-assassin-120-se",
+    "case": "lian-li-lancool-217",
+    "storage2": "none",
+    "wifi": "none",
+    "os": "windows-11-pro"
+   }
+  },
+  {
+   "id": "creator",
+   "name": "Creator AI",
+   "blurb": "32 GB GPU: video, music, voice, training your own styles",
+   "parts": {
+    "gpu": "rtx-5090-32gb",
+    "cpu": "ryzen-9-9950x",
+    "motherboard": "msi-mag-x870-tomahawk-wifi",
+    "ram": "corsair-vengeance-64gb-2x32gb-ddr5-6000-cl30",
+    "storage": "wd-black-sn850x-4tb",
+    "psu": "seasonic-vertex-gx-1200",
+    "cooler": "arctic-liquid-freezer-iii-pro-360",
+    "case": "fractal-design-meshify-2",
+    "storage2": "none",
+    "wifi": "none",
+    "os": "dual-boot-windows-11-pro-ubuntu"
+   }
+  },
+  {
+   "id": "pro",
+   "name": "Pro Workstation",
+   "blurb": "96 GB RTX PRO 6000 + Threadripper: no limits",
+   "parts": {
+    "gpu": "rtx-pro-6000-blackwell-workstation-96gb",
+    "cpu": "ryzen-tr-9970x",
+    "motherboard": "asus-pro-ws-trx50-sage-wifi-a",
+    "ram": "kingston-fury-renegade-pro-128gb-4x32gb-ddr5-6400-ecc-rdimm",
+    "storage": "samsung-9100-pro-4tb",
+    "psu": "seasonic-prime-tx-1600",
+    "cooler": "silverstone-xe360-tr5",
+    "case": "fractal-design-define-7-xl",
+    "storage2": "wd-black-sn850x-8tb",
+    "wifi": "none",
+    "os": "ubuntu-24-04-lts-free"
+   }
+  },
+  {
+   "id": "gaming",
+   "name": "Gaming + AI",
+   "blurb": "RTX 5080 + 9800X3D: top gaming, fast AI",
+   "parts": {
+    "gpu": "rtx-5080-16gb",
+    "cpu": "ryzen-7-9800x3d",
+    "motherboard": "msi-mag-x870-tomahawk-wifi",
+    "ram": "g-skill-trident-z5-neo-rgb-32gb-2x16gb-ddr5-6000-cl30",
+    "storage": "samsung-990-pro-2tb",
+    "psu": "seasonic-focus-gx-850-v4",
+    "cooler": "arctic-liquid-freezer-iii-pro-360",
+    "case": "nzxt-h7-flow",
+    "storage2": "none",
+    "wifi": "none",
+    "os": "windows-11-pro"
+   }
+  },
+  {
+   "id": "budget",
+   "name": "Value 24 GB",
+   "blurb": "New RX 7900 XTX: 24 GB of AI power for less (the card we run ourselves)",
+   "parts": {
+    "gpu": "amd-radeon-rx-7900-xtx-24gb",
+    "cpu": "ryzen-7-5700x",
+    "motherboard": "asus-tuf-b550m-plus-wifi-ii",
+    "ram": "g-skill-ripjaws-v-64gb-2x32gb-ddr4-3600",
+    "storage": "wd-black-sn7100-2tb",
+    "psu": "corsair-rm850e",
+    "cooler": "thermalright-peerless-assassin-120-se",
+    "case": "phanteks-xt-pro-ultra",
+    "storage2": "none",
+    "wifi": "none",
+    "os": "ubuntu-24-04-lts-free"
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "msi-rtx-5060-ti-16g-ventus-2x-oc",
+   "category": "gpu",
+   "name": "MSI GeForce RTX 5060 Ti 16G Ventus 2X OC",
+   "brand": "MSI",
+   "specs": {
+    "vram_gb": 16,
+    "tdp_w": 180,
+    "length_mm": 197,
+    "slots": 2,
+    "chip": "RTX 5060 Ti 16GB",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 600,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best new starter card for AI images and chat",
+   "tags": [
+    "16gb",
+    "starter"
+   ]
+  },
+  {
+   "id": "asus-dual-rtx-5060-ti-16gb-oc",
+   "category": "gpu",
+   "name": "ASUS Dual GeForce RTX 5060 Ti 16GB OC",
+   "brand": "ASUS",
+   "specs": {
+    "vram_gb": 16,
+    "tdp_w": 180,
+    "length_mm": 229,
+    "slots": 2.5,
+    "chip": "RTX 5060 Ti 16GB",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 620,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Starter AI with a quieter dual-fan cooler",
+   "tags": [
+    "16gb",
+    "starter"
+   ]
+  },
+  {
+   "id": "rtx-5070-12gb",
+   "category": "gpu",
+   "name": "NVIDIA GeForce RTX 5070 12GB Founders Edition",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 12,
+    "tdp_w": 250,
+    "length_mm": 242,
+    "slots": 2,
+    "chip": "RTX 5070",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 580,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "1440p gaming; light AI (12 GB)",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "gigabyte-rtx-5070-ti-windforce-oc-sff-16g",
+   "category": "gpu",
+   "name": "Gigabyte GeForce RTX 5070 Ti Windforce OC SFF 16G",
+   "brand": "Gigabyte",
+   "specs": {
+    "vram_gb": 16,
+    "tdp_w": 300,
+    "length_mm": 304,
+    "slots": 3,
+    "chip": "RTX 5070 Ti",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 1000,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fast 16 GB for images, video and gaming",
+   "tags": [
+    "16gb",
+    "gaming"
+   ]
+  },
+  {
+   "id": "asus-tuf-rtx-5070-ti-16gb-oc",
+   "category": "gpu",
+   "name": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB OC",
+   "brand": "ASUS",
+   "specs": {
+    "vram_gb": 16,
+    "tdp_w": 300,
+    "length_mm": 327,
+    "slots": 3.1,
+    "chip": "RTX 5070 Ti",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 1080,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fast 16 GB, very quiet cooler",
+   "tags": [
+    "16gb",
+    "gaming"
+   ]
+  },
+  {
+   "id": "rtx-5080-16gb",
+   "category": "gpu",
+   "name": "NVIDIA GeForce RTX 5080 16GB Founders Edition",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 16,
+    "tdp_w": 360,
+    "length_mm": 304,
+    "slots": 2,
+    "chip": "RTX 5080",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 1400,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Top 4K gaming plus fast AI",
+   "tags": [
+    "16gb",
+    "gaming"
+   ]
+  },
+  {
+   "id": "msi-rtx-5080-16g-trio-oc",
+   "category": "gpu",
+   "name": "MSI GeForce RTX 5080 16G Gaming Trio OC",
+   "brand": "MSI",
+   "specs": {
+    "vram_gb": 16,
+    "tdp_w": 360,
+    "length_mm": 338,
+    "slots": 3,
+    "chip": "RTX 5080",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 1480,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "4K gaming + AI, cool and quiet",
+   "tags": [
+    "16gb",
+    "gaming"
+   ]
+  },
+  {
+   "id": "rtx-5090-32gb",
+   "category": "gpu",
+   "name": "NVIDIA GeForce RTX 5090 32GB Founders Edition",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 32,
+    "tdp_w": 575,
+    "length_mm": 304,
+    "slots": 2,
+    "chip": "RTX 5090",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 3500,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fastest consumer AI card: 32 GB for video, LLMs, training",
+   "tags": [
+    "32gb",
+    "flagship"
+   ]
+  },
+  {
+   "id": "asus-tuf-rtx-5090-32gb-oc",
+   "category": "gpu",
+   "name": "ASUS TUF Gaming GeForce RTX 5090 32GB OC",
+   "brand": "ASUS",
+   "specs": {
+    "vram_gb": 32,
+    "tdp_w": 575,
+    "length_mm": 348,
+    "slots": 3.6,
+    "chip": "RTX 5090",
+    "vendor": "NVIDIA"
+   },
+   "price_usd": 3700,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "32 GB flagship with a big quiet cooler",
+   "tags": [
+    "32gb",
+    "flagship"
+   ]
+  },
+  {
+   "id": "rtx-pro-4000-blackwell-24gb",
+   "category": "gpu",
+   "name": "NVIDIA RTX PRO 4000 Blackwell 24GB",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 24,
+    "tdp_w": 140,
+    "length_mm": 241,
+    "slots": 1,
+    "chip": "RTX PRO 4000 Blackwell",
+    "vendor": "NVIDIA",
+    "ecc": true
+   },
+   "price_usd": 1800,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "24 GB in a single-slot, 140 W pro card",
+   "tags": [
+    "workstation",
+    "24gb",
+    "efficient"
+   ]
+  },
+  {
+   "id": "rtx-pro-4500-blackwell-32gb",
+   "category": "gpu",
+   "name": "NVIDIA RTX PRO 4500 Blackwell 32GB",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 32,
+    "tdp_w": 200,
+    "length_mm": 267,
+    "slots": 2,
+    "chip": "RTX PRO 4500 Blackwell",
+    "vendor": "NVIDIA",
+    "ecc": true
+   },
+   "price_usd": 3000,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "32 GB pro card at only 200 W",
+   "tags": [
+    "workstation",
+    "32gb"
+   ]
+  },
+  {
+   "id": "rtx-pro-5000-blackwell-48gb",
+   "category": "gpu",
+   "name": "NVIDIA RTX PRO 5000 Blackwell 48GB",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 48,
+    "tdp_w": 300,
+    "length_mm": 267,
+    "slots": 2,
+    "chip": "RTX PRO 5000 Blackwell",
+    "vendor": "NVIDIA",
+    "ecc": true
+   },
+   "price_usd": 6500,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "48 GB for 70B-class LLMs and serious training",
+   "tags": [
+    "workstation",
+    "48gb"
+   ]
+  },
+  {
+   "id": "rtx-pro-5000-blackwell-72gb",
+   "category": "gpu",
+   "name": "NVIDIA RTX PRO 5000 Blackwell 72GB",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 72,
+    "tdp_w": 300,
+    "length_mm": 267,
+    "slots": 2,
+    "chip": "RTX PRO 5000 Blackwell 72GB",
+    "vendor": "NVIDIA",
+    "ecc": true
+   },
+   "price_usd": 9800,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "72 GB: huge models without the 6000 price",
+   "tags": [
+    "workstation",
+    "72gb"
+   ]
+  },
+  {
+   "id": "rtx-6000-ada-generation-48gb",
+   "category": "gpu",
+   "name": "NVIDIA RTX 6000 Ada Generation 48GB",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 48,
+    "tdp_w": 300,
+    "length_mm": 267,
+    "slots": 2,
+    "chip": "RTX 6000 Ada",
+    "vendor": "NVIDIA",
+    "ecc": true
+   },
+   "price_usd": 7200,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Proven 48 GB pro card (previous generation)",
+   "tags": [
+    "workstation",
+    "48gb"
+   ]
+  },
+  {
+   "id": "rtx-pro-6000-blackwell-max-q-workstation-96gb",
+   "category": "gpu",
+   "name": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition 96GB",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 96,
+    "tdp_w": 300,
+    "length_mm": 267,
+    "slots": 2,
+    "chip": "RTX PRO 6000 Blackwell",
+    "vendor": "NVIDIA",
+    "ecc": true
+   },
+   "price_usd": 10500,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "96 GB at 300 W: biggest models, quiet blower",
+   "tags": [
+    "workstation",
+    "96gb"
+   ]
+  },
+  {
+   "id": "rtx-pro-6000-blackwell-workstation-96gb",
+   "category": "gpu",
+   "name": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition 96GB",
+   "brand": "NVIDIA",
+   "specs": {
+    "vram_gb": 96,
+    "tdp_w": 600,
+    "length_mm": 304,
+    "slots": 2,
+    "chip": "RTX PRO 6000 Blackwell",
+    "vendor": "NVIDIA",
+    "ecc": true
+   },
+   "price_usd": 11000,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "The no-limits AI card: 96 GB, full 600 W speed",
+   "tags": [
+    "workstation",
+    "96gb",
+    "flagship"
+   ]
+  },
+  {
+   "id": "sapphire-pulse-radeon-rx-9060-xt-16gb",
+   "category": "gpu",
+   "name": "Sapphire Pulse Radeon RX 9060 XT 16GB",
+   "brand": "Sapphire",
+   "specs": {
+    "vram_gb": 16,
+    "tdp_w": 160,
+    "length_mm": 240,
+    "slots": 2,
+    "chip": "RX 9060 XT 16GB",
+    "vendor": "AMD"
+   },
+   "price_usd": 420,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Low-cost 16 GB (AMD/ROCm, best on Linux)",
+   "tags": [
+    "16gb",
+    "amd"
+   ]
+  },
+  {
+   "id": "sapphire-pulse-radeon-rx-9070-xt-16gb",
+   "category": "gpu",
+   "name": "Sapphire Pulse Radeon RX 9070 XT 16GB",
+   "brand": "Sapphire",
+   "specs": {
+    "vram_gb": 16,
+    "tdp_w": 304,
+    "length_mm": 322,
+    "slots": 2.5,
+    "chip": "RX 9070 XT",
+    "vendor": "AMD"
+   },
+   "price_usd": 680,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Great 1440p/4K gaming; AI via ROCm on Linux",
+   "tags": [
+    "16gb",
+    "gaming",
+    "amd"
+   ]
+  },
+  {
+   "id": "amd-radeon-rx-7900-xtx-24gb",
+   "category": "gpu",
+   "name": "AMD Radeon RX 7900 XTX 24GB (reference)",
+   "brand": "AMD",
+   "specs": {
+    "vram_gb": 24,
+    "tdp_w": 355,
+    "length_mm": 287,
+    "slots": 2.5,
+    "chip": "RX 7900 XTX",
+    "vendor": "AMD"
+   },
+   "price_usd": 950,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "24 GB AMD card; great on Linux with ROCm",
+   "tags": [
+    "24gb",
+    "amd"
+   ]
+  },
+  {
+   "id": "amd-radeon-ai-pro-r9700-32gb",
+   "category": "gpu",
+   "name": "AMD Radeon AI PRO R9700 32GB",
+   "brand": "AMD",
+   "specs": {
+    "vram_gb": 32,
+    "tdp_w": 300,
+    "length_mm": 267,
+    "slots": 2,
+    "chip": "Radeon AI PRO R9700",
+    "vendor": "AMD"
+   },
+   "price_usd": 1400,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "32 GB for local LLMs on a budget (ROCm, Linux)",
+   "tags": [
+    "32gb",
+    "amd",
+    "workstation"
+   ]
+  },
+  {
+   "id": "ryzen-5-5600x",
+   "category": "cpu",
+   "name": "AMD Ryzen 5 5600X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp_w": 65,
+    "igpu": false
+   },
+   "price_usd": 140,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget builds on a cheap AM4 board",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "ryzen-7-5700x",
+   "category": "cpu",
+   "name": "AMD Ryzen 7 5700X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp_w": 65,
+    "igpu": false
+   },
+   "price_usd": 170,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget AI box paired with a used GPU",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "ryzen-7-5700x3d",
+   "category": "cpu",
+   "name": "AMD Ryzen 7 5700X3D",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp_w": 105,
+    "igpu": false
+   },
+   "price_usd": 250,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget gaming king on AM4",
+   "tags": [
+    "budget",
+    "gaming"
+   ]
+  },
+  {
+   "id": "ryzen-9-5950x",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 5950X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM4",
+    "cores": 16,
+    "threads": 32,
+    "tdp_w": 105,
+    "igpu": false
+   },
+   "price_usd": 350,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "16 cores on an AM4 budget",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "ryzen-5-7600x",
+   "category": "cpu",
+   "name": "AMD Ryzen 5 7600X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp_w": 105,
+    "igpu": true
+   },
+   "price_usd": 200,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Entry AM5 gaming and AI",
+   "tags": []
+  },
+  {
+   "id": "ryzen-7-7700x",
+   "category": "cpu",
+   "name": "AMD Ryzen 7 7700X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp_w": 105,
+    "igpu": true
+   },
+   "price_usd": 260,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Solid all-rounder",
+   "tags": []
+  },
+  {
+   "id": "ryzen-7-7800x3d",
+   "category": "cpu",
+   "name": "AMD Ryzen 7 7800X3D",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp_w": 120,
+    "igpu": true
+   },
+   "price_usd": 400,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Great gaming CPU",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "ryzen-9-7900x",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 7900X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 12,
+    "threads": 24,
+    "tdp_w": 170,
+    "igpu": true
+   },
+   "price_usd": 330,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "12 cores for creators on a budget",
+   "tags": []
+  },
+  {
+   "id": "ryzen-9-7950x",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 7950X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp_w": 170,
+    "igpu": true
+   },
+   "price_usd": 470,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "16 cores for heavy multitasking",
+   "tags": []
+  },
+  {
+   "id": "ryzen-9-7950x3d",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 7950X3D",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp_w": 120,
+    "igpu": true
+   },
+   "price_usd": 560,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "16 cores plus top gaming",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "ryzen-5-9600x",
+   "category": "cpu",
+   "name": "AMD Ryzen 5 9600X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp_w": 65,
+    "igpu": true
+   },
+   "price_usd": 220,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Efficient entry Zen 5",
+   "tags": []
+  },
+  {
+   "id": "ryzen-7-9700x",
+   "category": "cpu",
+   "name": "AMD Ryzen 7 9700X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp_w": 65,
+    "igpu": true
+   },
+   "price_usd": 300,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Cool, efficient 8 cores for AI starters",
+   "tags": []
+  },
+  {
+   "id": "ryzen-7-9800x3d",
+   "category": "cpu",
+   "name": "AMD Ryzen 7 9800X3D",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp_w": 120,
+    "igpu": true
+   },
+   "price_usd": 480,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "The fastest gaming CPU",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "ryzen-9-9900x",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 9900X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 12,
+    "threads": 24,
+    "tdp_w": 120,
+    "igpu": true
+   },
+   "price_usd": 380,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "12 cores for creators",
+   "tags": []
+  },
+  {
+   "id": "ryzen-9-9900x3d",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 9900X3D",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 12,
+    "threads": 24,
+    "tdp_w": 120,
+    "igpu": true
+   },
+   "price_usd": 560,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "12 cores with gaming cache",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "ryzen-9-9950x",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 9950X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp_w": 170,
+    "igpu": true
+   },
+   "price_usd": 560,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best mainstream CPU for AI + content work",
+   "tags": []
+  },
+  {
+   "id": "ryzen-9-9950x3d",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 9950X3D",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp_w": 170,
+    "igpu": true
+   },
+   "price_usd": 675,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "16 cores and top-tier gaming",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "ryzen-9-9950x3d2-dual",
+   "category": "cpu",
+   "name": "AMD Ryzen 9 9950X3D2 Dual Edition",
+   "brand": "AMD",
+   "specs": {
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp_w": 200,
+    "igpu": true
+   },
+   "price_usd": 899,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Halo AM5 chip: 3D cache on both dies",
+   "tags": [
+    "gaming",
+    "flagship"
+   ]
+  },
+  {
+   "id": "ryzen-tr-7960x",
+   "category": "cpu",
+   "name": "AMD Ryzen Threadripper 7960X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "sTR5",
+    "cores": 24,
+    "threads": 48,
+    "tdp_w": 350,
+    "igpu": false
+   },
+   "price_usd": 1450,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Workstation entry: lots of PCIe lanes and RAM",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "ryzen-tr-7970x",
+   "category": "cpu",
+   "name": "AMD Ryzen Threadripper 7970X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "sTR5",
+    "cores": 32,
+    "threads": 64,
+    "tdp_w": 350,
+    "igpu": false
+   },
+   "price_usd": 2500,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "32-core workstation",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "ryzen-tr-7980x",
+   "category": "cpu",
+   "name": "AMD Ryzen Threadripper 7980X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "sTR5",
+    "cores": 64,
+    "threads": 128,
+    "tdp_w": 350,
+    "igpu": false
+   },
+   "price_usd": 4900,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "64 cores for massive data work",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "ryzen-tr-9960x",
+   "category": "cpu",
+   "name": "AMD Ryzen Threadripper 9960X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "sTR5",
+    "cores": 24,
+    "threads": 48,
+    "tdp_w": 350,
+    "igpu": false
+   },
+   "price_usd": 1500,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Zen 5 workstation entry",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "ryzen-tr-9970x",
+   "category": "cpu",
+   "name": "AMD Ryzen Threadripper 9970X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "sTR5",
+    "cores": 32,
+    "threads": 64,
+    "tdp_w": 350,
+    "igpu": false
+   },
+   "price_usd": 2600,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "32-core Zen 5 AI workstation",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "ryzen-tr-9980x",
+   "category": "cpu",
+   "name": "AMD Ryzen Threadripper 9980X",
+   "brand": "AMD",
+   "specs": {
+    "socket": "sTR5",
+    "cores": 64,
+    "threads": 128,
+    "tdp_w": 350,
+    "igpu": false
+   },
+   "price_usd": 4950,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "64 cores, the top HEDT chip",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "core-i5-14400f",
+   "category": "cpu",
+   "name": "Intel Core i5-14400F",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1700",
+    "cores": 10,
+    "threads": 16,
+    "tdp_w": 148,
+    "igpu": false
+   },
+   "price_usd": 140,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget Intel builds",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "core-i5-14600k",
+   "category": "cpu",
+   "name": "Intel Core i5-14600K",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1700",
+    "cores": 14,
+    "threads": 20,
+    "tdp_w": 181,
+    "igpu": true
+   },
+   "price_usd": 230,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Great value Intel gaming",
+   "tags": []
+  },
+  {
+   "id": "core-i7-14700k",
+   "category": "cpu",
+   "name": "Intel Core i7-14700K",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1700",
+    "cores": 20,
+    "threads": 28,
+    "tdp_w": 253,
+    "igpu": true
+   },
+   "price_usd": 330,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "20 cores for creators",
+   "tags": []
+  },
+  {
+   "id": "core-i9-14900k",
+   "category": "cpu",
+   "name": "Intel Core i9-14900K",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1700",
+    "cores": 24,
+    "threads": 32,
+    "tdp_w": 253,
+    "igpu": true
+   },
+   "price_usd": 450,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Top LGA1700 chip",
+   "tags": []
+  },
+  {
+   "id": "core-ultra-5-245k",
+   "category": "cpu",
+   "name": "Intel Core Ultra 5 245K",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1851",
+    "cores": 14,
+    "threads": 14,
+    "tdp_w": 159,
+    "igpu": true
+   },
+   "price_usd": 230,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Efficient entry Arrow Lake",
+   "tags": []
+  },
+  {
+   "id": "core-ultra-5-250k-plus",
+   "category": "cpu",
+   "name": "Intel Core Ultra 5 250K Plus",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1851",
+    "cores": 18,
+    "threads": 18,
+    "tdp_w": 159,
+    "igpu": true
+   },
+   "price_usd": 219,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best-value Intel (2026 refresh)",
+   "tags": []
+  },
+  {
+   "id": "core-ultra-7-265k",
+   "category": "cpu",
+   "name": "Intel Core Ultra 7 265K",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1851",
+    "cores": 20,
+    "threads": 20,
+    "tdp_w": 250,
+    "igpu": true
+   },
+   "price_usd": 290,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fast multi-core for creators",
+   "tags": []
+  },
+  {
+   "id": "core-ultra-7-270k-plus",
+   "category": "cpu",
+   "name": "Intel Core Ultra 7 270K Plus",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1851",
+    "cores": 24,
+    "threads": 24,
+    "tdp_w": 250,
+    "igpu": true
+   },
+   "price_usd": 329,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best mainstream Intel for AI + creative work",
+   "tags": []
+  },
+  {
+   "id": "core-ultra-9-285k",
+   "category": "cpu",
+   "name": "Intel Core Ultra 9 285K",
+   "brand": "Intel",
+   "specs": {
+    "socket": "LGA1851",
+    "cores": 24,
+    "threads": 24,
+    "tdp_w": 250,
+    "igpu": true
+   },
+   "price_usd": 560,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Top Arrow Lake chip",
+   "tags": []
+  },
+  {
+   "id": "msi-mag-b550-tomahawk",
+   "category": "motherboard",
+   "name": "MSI MAG B550 Tomahawk",
+   "brand": "MSI",
+   "specs": {
+    "socket": "AM4",
+    "chipset": "B550",
+    "form_factor": "ATX",
+    "mem_type": "DDR4",
+    "mem_slots": 4,
+    "max_mem_gb": 128,
+    "wifi": null,
+    "m2_slots": 2
+   },
+   "price_usd": 150,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget AM4 builds",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "asus-tuf-b550m-plus-wifi-ii",
+   "category": "motherboard",
+   "name": "ASUS TUF Gaming B550M-Plus WiFi II",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "AM4",
+    "chipset": "B550",
+    "form_factor": "mATX",
+    "mem_type": "DDR4",
+    "mem_slots": 4,
+    "max_mem_gb": 128,
+    "wifi": "Wi-Fi 6",
+    "m2_slots": 2
+   },
+   "price_usd": 150,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Compact AM4 with Wi-Fi",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "gigabyte-b650m-aorus-elite-ax",
+   "category": "motherboard",
+   "name": "Gigabyte B650M Aorus Elite AX",
+   "brand": "Gigabyte",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "B650",
+    "form_factor": "mATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 6E",
+    "m2_slots": 2
+   },
+   "price_usd": 190,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Compact AM5 builds",
+   "tags": []
+  },
+  {
+   "id": "asus-tuf-b650-plus-wifi",
+   "category": "motherboard",
+   "name": "ASUS TUF Gaming B650-Plus WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "B650",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 6",
+    "m2_slots": 3
+   },
+   "price_usd": 200,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Reliable value AM5 board",
+   "tags": []
+  },
+  {
+   "id": "msi-mag-b650-tomahawk-wifi",
+   "category": "motherboard",
+   "name": "MSI MAG B650 Tomahawk WiFi",
+   "brand": "MSI",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "B650",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 6E",
+    "m2_slots": 3
+   },
+   "price_usd": 210,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Value AM5 with great power delivery",
+   "tags": []
+  },
+  {
+   "id": "asrock-b850m-pro-rs-wifi",
+   "category": "motherboard",
+   "name": "ASRock B850M Pro RS WiFi",
+   "brand": "ASRock",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "B850",
+    "form_factor": "mATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 6E",
+    "m2_slots": 3
+   },
+   "price_usd": 170,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget AM5 (newest chipset)",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "asus-rog-strix-b850-i-wifi",
+   "category": "motherboard",
+   "name": "ASUS ROG Strix B850-I Gaming WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "B850",
+    "form_factor": "ITX",
+    "mem_type": "DDR5",
+    "mem_slots": 2,
+    "max_mem_gb": 128,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 2
+   },
+   "price_usd": 300,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Small-form-factor AM5",
+   "tags": [
+    "itx"
+   ]
+  },
+  {
+   "id": "msi-mag-x870-tomahawk-wifi",
+   "category": "motherboard",
+   "name": "MSI MAG X870 Tomahawk WiFi",
+   "brand": "MSI",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "X870",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 4
+   },
+   "price_usd": 290,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best all-round AM5 board for AI rigs",
+   "tags": []
+  },
+  {
+   "id": "msi-mpg-x670e-carbon-wifi",
+   "category": "motherboard",
+   "name": "MSI MPG X670E Carbon WiFi",
+   "brand": "MSI",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "X670E",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 6E",
+    "m2_slots": 4
+   },
+   "price_usd": 340,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Premium AM5, lots of M.2",
+   "tags": []
+  },
+  {
+   "id": "asus-proart-x870e-creator-wifi",
+   "category": "motherboard",
+   "name": "ASUS ProArt X870E-Creator WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "X870E",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 4
+   },
+   "price_usd": 480,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Creator board: 10G LAN, many drives",
+   "tags": [
+    "creator"
+   ]
+  },
+  {
+   "id": "asus-rog-strix-x870e-e-wifi",
+   "category": "motherboard",
+   "name": "ASUS ROG Strix X870E-E Gaming WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "X870E",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 5
+   },
+   "price_usd": 480,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "High-end gaming + AI",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "gigabyte-x870e-aorus-master",
+   "category": "motherboard",
+   "name": "Gigabyte X870E Aorus Master",
+   "brand": "Gigabyte",
+   "specs": {
+    "socket": "AM5",
+    "chipset": "X870E",
+    "form_factor": "E-ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 4
+   },
+   "price_usd": 500,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Flagship AM5 with huge cooling",
+   "tags": []
+  },
+  {
+   "id": "gigabyte-b760m-ds3h-ddr4",
+   "category": "motherboard",
+   "name": "Gigabyte B760M DS3H DDR4",
+   "brand": "Gigabyte",
+   "specs": {
+    "socket": "LGA1700",
+    "chipset": "B760",
+    "form_factor": "mATX",
+    "mem_type": "DDR4",
+    "mem_slots": 4,
+    "max_mem_gb": 128,
+    "wifi": null,
+    "m2_slots": 2
+   },
+   "price_usd": 110,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget Intel with DDR4",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "msi-pro-z790-p-wifi-ddr4",
+   "category": "motherboard",
+   "name": "MSI PRO Z790-P WiFi DDR4",
+   "brand": "MSI",
+   "specs": {
+    "socket": "LGA1700",
+    "chipset": "Z790",
+    "form_factor": "ATX",
+    "mem_type": "DDR4",
+    "mem_slots": 4,
+    "max_mem_gb": 128,
+    "wifi": "Wi-Fi 6E",
+    "m2_slots": 4
+   },
+   "price_usd": 180,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Overclock Intel K chips on DDR4",
+   "tags": []
+  },
+  {
+   "id": "msi-mag-b760-tomahawk-wifi",
+   "category": "motherboard",
+   "name": "MSI MAG B760 Tomahawk WiFi",
+   "brand": "MSI",
+   "specs": {
+    "socket": "LGA1700",
+    "chipset": "B760",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 192,
+    "wifi": "Wi-Fi 6E",
+    "m2_slots": 3
+   },
+   "price_usd": 190,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Value 14th-gen Intel",
+   "tags": []
+  },
+  {
+   "id": "asus-rog-strix-z790-e-wifi-ii",
+   "category": "motherboard",
+   "name": "ASUS ROG Strix Z790-E Gaming WiFi II",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "LGA1700",
+    "chipset": "Z790",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 192,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 5
+   },
+   "price_usd": 420,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Premium 14th-gen Intel",
+   "tags": []
+  },
+  {
+   "id": "asus-rog-strix-z790-i-wifi",
+   "category": "motherboard",
+   "name": "ASUS ROG Strix Z790-I Gaming WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "LGA1700",
+    "chipset": "Z790",
+    "form_factor": "ITX",
+    "mem_type": "DDR5",
+    "mem_slots": 2,
+    "max_mem_gb": 96,
+    "wifi": "Wi-Fi 6E",
+    "m2_slots": 2
+   },
+   "price_usd": 340,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Small Intel builds",
+   "tags": [
+    "itx"
+   ]
+  },
+  {
+   "id": "asus-tuf-b860m-plus-wifi",
+   "category": "motherboard",
+   "name": "ASUS TUF Gaming B860M-Plus WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "LGA1851",
+    "chipset": "B860",
+    "form_factor": "mATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 3
+   },
+   "price_usd": 190,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Compact Core Ultra builds",
+   "tags": []
+  },
+  {
+   "id": "msi-pro-b860-p-wifi",
+   "category": "motherboard",
+   "name": "MSI PRO B860-P WiFi",
+   "brand": "MSI",
+   "specs": {
+    "socket": "LGA1851",
+    "chipset": "B860",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 6E",
+    "m2_slots": 3
+   },
+   "price_usd": 180,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Value Core Ultra board",
+   "tags": []
+  },
+  {
+   "id": "msi-mag-z890-tomahawk-wifi",
+   "category": "motherboard",
+   "name": "MSI MAG Z890 Tomahawk WiFi",
+   "brand": "MSI",
+   "specs": {
+    "socket": "LGA1851",
+    "chipset": "Z890",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 4
+   },
+   "price_usd": 300,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best all-round Core Ultra board",
+   "tags": []
+  },
+  {
+   "id": "asus-proart-z890-creator-wifi",
+   "category": "motherboard",
+   "name": "ASUS ProArt Z890-Creator WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "LGA1851",
+    "chipset": "Z890",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 4
+   },
+   "price_usd": 480,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Creator board: 10G LAN, Thunderbolt 4",
+   "tags": [
+    "creator"
+   ]
+  },
+  {
+   "id": "asus-rog-strix-z890-e-wifi",
+   "category": "motherboard",
+   "name": "ASUS ROG Strix Z890-E Gaming WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "LGA1851",
+    "chipset": "Z890",
+    "form_factor": "ATX",
+    "mem_type": "DDR5",
+    "mem_slots": 4,
+    "max_mem_gb": 256,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 5
+   },
+   "price_usd": 470,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "High-end Intel gaming + AI",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "asus-rog-strix-z890-i-wifi",
+   "category": "motherboard",
+   "name": "ASUS ROG Strix Z890-I Gaming WiFi",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "LGA1851",
+    "chipset": "Z890",
+    "form_factor": "ITX",
+    "mem_type": "DDR5",
+    "mem_slots": 2,
+    "max_mem_gb": 128,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 2
+   },
+   "price_usd": 380,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Small Core Ultra builds",
+   "tags": [
+    "itx"
+   ]
+  },
+  {
+   "id": "asus-pro-ws-trx50-sage-wifi-a",
+   "category": "motherboard",
+   "name": "ASUS Pro WS TRX50-SAGE WiFi A",
+   "brand": "ASUS",
+   "specs": {
+    "socket": "sTR5",
+    "chipset": "TRX50",
+    "form_factor": "E-ATX",
+    "mem_type": "DDR5 RDIMM",
+    "mem_slots": 4,
+    "max_mem_gb": 1024,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 4
+   },
+   "price_usd": 1000,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Threadripper workstation, ECC memory",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "gigabyte-trx50-aero-d",
+   "category": "motherboard",
+   "name": "Gigabyte TRX50 Aero D",
+   "brand": "Gigabyte",
+   "specs": {
+    "socket": "sTR5",
+    "chipset": "TRX50",
+    "form_factor": "E-ATX",
+    "mem_type": "DDR5 RDIMM",
+    "mem_slots": 4,
+    "max_mem_gb": 1024,
+    "wifi": "Wi-Fi 7",
+    "m2_slots": 4
+   },
+   "price_usd": 850,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Threadripper workstation, value pick",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "asrock-trx50-ws",
+   "category": "motherboard",
+   "name": "ASRock TRX50 WS",
+   "brand": "ASRock",
+   "specs": {
+    "socket": "sTR5",
+    "chipset": "TRX50",
+    "form_factor": "ATX",
+    "mem_type": "DDR5 RDIMM",
+    "mem_slots": 4,
+    "max_mem_gb": 1024,
+    "wifi": null,
+    "m2_slots": 4
+   },
+   "price_usd": 800,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Threadripper in a standard ATX case",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "corsair-vengeance-lpx-32gb-2x16gb-ddr4-3200",
+   "category": "ram",
+   "name": "Corsair Vengeance LPX 32GB (2x16GB) DDR4-3200",
+   "brand": "Corsair",
+   "specs": {
+    "mem_type": "DDR4",
+    "capacity_gb": 32,
+    "sticks": 2,
+    "speed_mts": 3200,
+    "ecc": false
+   },
+   "price_usd": 210,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget AM4 / DDR4 Intel builds",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "g-skill-ripjaws-v-64gb-2x32gb-ddr4-3600",
+   "category": "ram",
+   "name": "G.Skill Ripjaws V 64GB (2x32GB) DDR4-3600",
+   "brand": "G.Skill",
+   "specs": {
+    "mem_type": "DDR4",
+    "capacity_gb": 64,
+    "sticks": 2,
+    "speed_mts": 3600,
+    "ecc": false
+   },
+   "price_usd": 400,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Bigger datasets on DDR4 boards",
+   "tags": []
+  },
+  {
+   "id": "corsair-vengeance-lpx-128gb-4x32gb-ddr4-3200",
+   "category": "ram",
+   "name": "Corsair Vengeance LPX 128GB (4x32GB) DDR4-3200",
+   "brand": "Corsair",
+   "specs": {
+    "mem_type": "DDR4",
+    "capacity_gb": 128,
+    "sticks": 4,
+    "speed_mts": 3200,
+    "ecc": false
+   },
+   "price_usd": 820,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Max memory on DDR4 boards",
+   "tags": []
+  },
+  {
+   "id": "kingston-fury-beast-32gb-2x16gb-ddr5-6000-cl30",
+   "category": "ram",
+   "name": "Kingston Fury Beast 32GB (2x16GB) DDR5-6000 CL30",
+   "brand": "Kingston",
+   "specs": {
+    "mem_type": "DDR5",
+    "capacity_gb": 32,
+    "sticks": 2,
+    "speed_mts": 6000,
+    "ecc": false
+   },
+   "price_usd": 380,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Starter AI and gaming",
+   "tags": [
+    "starter"
+   ]
+  },
+  {
+   "id": "g-skill-trident-z5-neo-rgb-32gb-2x16gb-ddr5-6000-cl30",
+   "category": "ram",
+   "name": "G.Skill Trident Z5 Neo RGB 32GB (2x16GB) DDR5-6000 CL30",
+   "brand": "G.Skill",
+   "specs": {
+    "mem_type": "DDR5",
+    "capacity_gb": 32,
+    "sticks": 2,
+    "speed_mts": 6000,
+    "ecc": false
+   },
+   "price_usd": 400,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fast gaming memory tuned for AMD",
+   "tags": [
+    "gaming"
+   ]
+  },
+  {
+   "id": "corsair-vengeance-64gb-2x32gb-ddr5-6000-cl30",
+   "category": "ram",
+   "name": "Corsair Vengeance 64GB (2x32GB) DDR5-6000 CL30",
+   "brand": "Corsair",
+   "specs": {
+    "mem_type": "DDR5",
+    "capacity_gb": 64,
+    "sticks": 2,
+    "speed_mts": 6000,
+    "ecc": false
+   },
+   "price_usd": 760,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Creators: run bigger models on CPU + GPU",
+   "tags": []
+  },
+  {
+   "id": "g-skill-flare-x5-96gb-2x48gb-ddr5-6000-cl30",
+   "category": "ram",
+   "name": "G.Skill Flare X5 96GB (2x48GB) DDR5-6000 CL30",
+   "brand": "G.Skill",
+   "specs": {
+    "mem_type": "DDR5",
+    "capacity_gb": 96,
+    "sticks": 2,
+    "speed_mts": 6000,
+    "ecc": false
+   },
+   "price_usd": 1100,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Large LLMs with offloading",
+   "tags": []
+  },
+  {
+   "id": "corsair-vengeance-128gb-2x64gb-ddr5-5600",
+   "category": "ram",
+   "name": "Corsair Vengeance 128GB (2x64GB) DDR5-5600",
+   "brand": "Corsair",
+   "specs": {
+    "mem_type": "DDR5",
+    "capacity_gb": 128,
+    "sticks": 2,
+    "speed_mts": 5600,
+    "ecc": false
+   },
+   "price_usd": 1550,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "128 GB in just two sticks",
+   "tags": []
+  },
+  {
+   "id": "kingston-fury-beast-128gb-4x32gb-ddr5-5600",
+   "category": "ram",
+   "name": "Kingston Fury Beast 128GB (4x32GB) DDR5-5600",
+   "brand": "Kingston",
+   "specs": {
+    "mem_type": "DDR5",
+    "capacity_gb": 128,
+    "sticks": 4,
+    "speed_mts": 5600,
+    "ecc": false
+   },
+   "price_usd": 1600,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "128 GB for heavy multitasking",
+   "tags": []
+  },
+  {
+   "id": "g-skill-trident-z5-192gb-4x48gb-ddr5-5200",
+   "category": "ram",
+   "name": "G.Skill Trident Z5 192GB (4x48GB) DDR5-5200",
+   "brand": "G.Skill",
+   "specs": {
+    "mem_type": "DDR5",
+    "capacity_gb": 192,
+    "sticks": 4,
+    "speed_mts": 5200,
+    "ecc": false
+   },
+   "price_usd": 2300,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Very large models in system RAM",
+   "tags": []
+  },
+  {
+   "id": "crucial-pro-256gb-4x64gb-ddr5-5600",
+   "category": "ram",
+   "name": "Crucial Pro 256GB (4x64GB) DDR5-5600",
+   "brand": "Crucial",
+   "specs": {
+    "mem_type": "DDR5",
+    "capacity_gb": 256,
+    "sticks": 4,
+    "speed_mts": 5600,
+    "ecc": false
+   },
+   "price_usd": 3100,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Max memory on AM5 / Core Ultra",
+   "tags": []
+  },
+  {
+   "id": "kingston-fury-renegade-pro-128gb-4x32gb-ddr5-6400-ecc-rdimm",
+   "category": "ram",
+   "name": "Kingston Fury Renegade Pro 128GB (4x32GB) DDR5-6400 ECC RDIMM",
+   "brand": "Kingston",
+   "specs": {
+    "mem_type": "DDR5 RDIMM",
+    "capacity_gb": 128,
+    "sticks": 4,
+    "speed_mts": 6400,
+    "ecc": true
+   },
+   "price_usd": 2400,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Threadripper: error-correcting workstation memory",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "kingston-fury-renegade-pro-256gb-4x64gb-ddr5-6000-ecc-rdimm",
+   "category": "ram",
+   "name": "Kingston Fury Renegade Pro 256GB (4x64GB) DDR5-6000 ECC RDIMM",
+   "brand": "Kingston",
+   "specs": {
+    "mem_type": "DDR5 RDIMM",
+    "capacity_gb": 256,
+    "sticks": 4,
+    "speed_mts": 6000,
+    "ecc": true
+   },
+   "price_usd": 4600,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Big-data Threadripper workstations",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "v-color-512gb-4x128gb-ddr5-6000-ecc-rdimm",
+   "category": "ram",
+   "name": "V-Color 512GB (4x128GB) DDR5-6000 ECC RDIMM",
+   "brand": "V-Color",
+   "specs": {
+    "mem_type": "DDR5 RDIMM",
+    "capacity_gb": 512,
+    "sticks": 4,
+    "speed_mts": 6000,
+    "ecc": true
+   },
+   "price_usd": 9800,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Huge in-memory AI on Threadripper",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "wd-black-sn7100-1tb",
+   "category": "storage",
+   "name": "WD Black SN7100 1TB",
+   "brand": "WD",
+   "specs": {
+    "capacity_tb": 1,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7250
+   },
+   "price_usd": 150,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Basic boot drive",
+   "tags": []
+  },
+  {
+   "id": "samsung-990-pro-1tb",
+   "category": "storage",
+   "name": "Samsung 990 Pro 1TB",
+   "brand": "Samsung",
+   "specs": {
+    "capacity_tb": 1,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7450
+   },
+   "price_usd": 210,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fast boot drive",
+   "tags": []
+  },
+  {
+   "id": "wd-black-sn7100-2tb",
+   "category": "storage",
+   "name": "WD Black SN7100 2TB",
+   "brand": "WD",
+   "specs": {
+    "capacity_tb": 2,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7250
+   },
+   "price_usd": 280,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Room for a few AI models",
+   "tags": [
+    "starter"
+   ]
+  },
+  {
+   "id": "samsung-990-pro-2tb",
+   "category": "storage",
+   "name": "Samsung 990 Pro 2TB",
+   "brand": "Samsung",
+   "specs": {
+    "capacity_tb": 2,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7450
+   },
+   "price_usd": 400,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fast, reliable 2 TB",
+   "tags": []
+  },
+  {
+   "id": "crucial-t705-2tb",
+   "category": "storage",
+   "name": "Crucial T705 2TB",
+   "brand": "Crucial",
+   "specs": {
+    "capacity_tb": 2,
+    "interface": "NVMe PCIe Gen5",
+    "pcie_gen": 5,
+    "read_mbs": 14500
+   },
+   "price_usd": 480,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Gen5 speed for fast model loading",
+   "tags": []
+  },
+  {
+   "id": "wd-black-sn850x-4tb",
+   "category": "storage",
+   "name": "WD Black SN850X 4TB",
+   "brand": "WD",
+   "specs": {
+    "capacity_tb": 4,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7300
+   },
+   "price_usd": 560,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Plenty of room for models and projects",
+   "tags": []
+  },
+  {
+   "id": "samsung-990-pro-4tb",
+   "category": "storage",
+   "name": "Samsung 990 Pro 4TB",
+   "brand": "Samsung",
+   "specs": {
+    "capacity_tb": 4,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7450
+   },
+   "price_usd": 720,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Premium 4 TB for creators",
+   "tags": []
+  },
+  {
+   "id": "samsung-9100-pro-4tb",
+   "category": "storage",
+   "name": "Samsung 9100 Pro 4TB",
+   "brand": "Samsung",
+   "specs": {
+    "capacity_tb": 4,
+    "interface": "NVMe PCIe Gen5",
+    "pcie_gen": 5,
+    "read_mbs": 14800
+   },
+   "price_usd": 900,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fastest 4 TB: loads big models in seconds",
+   "tags": []
+  },
+  {
+   "id": "crucial-t705-4tb",
+   "category": "storage",
+   "name": "Crucial T705 4TB",
+   "brand": "Crucial",
+   "specs": {
+    "capacity_tb": 4,
+    "interface": "NVMe PCIe Gen5",
+    "pcie_gen": 5,
+    "read_mbs": 14100
+   },
+   "price_usd": 860,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Gen5 4 TB for heavy datasets",
+   "tags": []
+  },
+  {
+   "id": "samsung-990-evo-plus-4tb",
+   "category": "storage",
+   "name": "Samsung 990 EVO Plus 4TB",
+   "brand": "Samsung",
+   "specs": {
+    "capacity_tb": 4,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7250
+   },
+   "price_usd": 520,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Value 4 TB",
+   "tags": []
+  },
+  {
+   "id": "wd-black-sn850x-8tb",
+   "category": "storage",
+   "name": "WD Black SN850X 8TB",
+   "brand": "WD",
+   "specs": {
+    "capacity_tb": 8,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7200
+   },
+   "price_usd": 1300,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Huge model and video library",
+   "tags": []
+  },
+  {
+   "id": "sabrent-rocket-4-plus-8tb",
+   "category": "storage",
+   "name": "Sabrent Rocket 4 Plus 8TB",
+   "brand": "Sabrent",
+   "specs": {
+    "capacity_tb": 8,
+    "interface": "NVMe PCIe Gen4",
+    "pcie_gen": 4,
+    "read_mbs": 7100
+   },
+   "price_usd": 1250,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "8 TB of fast storage",
+   "tags": []
+  },
+  {
+   "id": "samsung-9100-pro-8tb",
+   "category": "storage",
+   "name": "Samsung 9100 Pro 8TB",
+   "brand": "Samsung",
+   "specs": {
+    "capacity_tb": 8,
+    "interface": "NVMe PCIe Gen5",
+    "pcie_gen": 5,
+    "read_mbs": 14800
+   },
+   "price_usd": 1700,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fastest 8 TB available",
+   "tags": []
+  },
+  {
+   "id": "corsair-rm650e",
+   "category": "psu",
+   "name": "Corsair RM650e (2025)",
+   "brand": "Corsair",
+   "specs": {
+    "wattage": 650,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 95,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Low-power builds",
+   "tags": []
+  },
+  {
+   "id": "corsair-rm750e",
+   "category": "psu",
+   "name": "Corsair RM750e (2025)",
+   "brand": "Corsair",
+   "specs": {
+    "wattage": 750,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 110,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Starter builds",
+   "tags": []
+  },
+  {
+   "id": "corsair-rm850e",
+   "category": "psu",
+   "name": "Corsair RM850e (2025)",
+   "brand": "Corsair",
+   "specs": {
+    "wattage": 850,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 130,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Most 16 GB GPU builds",
+   "tags": []
+  },
+  {
+   "id": "seasonic-focus-gx-850-v4",
+   "category": "psu",
+   "name": "Seasonic Focus GX-850 V4",
+   "brand": "Seasonic",
+   "specs": {
+    "wattage": 850,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 150,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Quiet 850 W with a 10-year warranty",
+   "tags": []
+  },
+  {
+   "id": "msi-mag-a1000gls-pcie5",
+   "category": "psu",
+   "name": "MSI MAG A1000GLS PCIE5",
+   "brand": "MSI",
+   "specs": {
+    "wattage": 1000,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 160,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "High-end GPUs on a budget",
+   "tags": []
+  },
+  {
+   "id": "corsair-rm1000x",
+   "category": "psu",
+   "name": "Corsair RM1000x (2025)",
+   "brand": "Corsair",
+   "specs": {
+    "wattage": 1000,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 200,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Quiet power for RTX 5080-class cards",
+   "tags": []
+  },
+  {
+   "id": "be-quiet-pure-power-13-m-1000w",
+   "category": "psu",
+   "name": "be quiet! Pure Power 13 M 1000W",
+   "brand": "be quiet!",
+   "specs": {
+    "wattage": 1000,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 170,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Silent 1000 W",
+   "tags": []
+  },
+  {
+   "id": "seasonic-vertex-gx-1200",
+   "category": "psu",
+   "name": "Seasonic Vertex GX-1200",
+   "brand": "Seasonic",
+   "specs": {
+    "wattage": 1200,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 260,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "RTX 5090 builds",
+   "tags": []
+  },
+  {
+   "id": "corsair-rm1200x-shift",
+   "category": "psu",
+   "name": "Corsair RM1200x Shift",
+   "brand": "Corsair",
+   "specs": {
+    "wattage": 1200,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Gold",
+    "form": "ATX"
+   },
+   "price_usd": 270,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "RTX 5090 with side-mounted cables",
+   "tags": []
+  },
+  {
+   "id": "msi-meg-ai1300p-pcie5",
+   "category": "psu",
+   "name": "MSI MEG Ai1300P PCIE5",
+   "brand": "MSI",
+   "specs": {
+    "wattage": 1300,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Platinum",
+    "form": "ATX"
+   },
+   "price_usd": 330,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Big GPU + big CPU",
+   "tags": []
+  },
+  {
+   "id": "be-quiet-dark-power-pro-13-1600w",
+   "category": "psu",
+   "name": "be quiet! Dark Power Pro 13 1600W",
+   "brand": "be quiet!",
+   "specs": {
+    "wattage": 1600,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Titanium",
+    "form": "ATX"
+   },
+   "price_usd": 480,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Workstations with 600 W GPUs",
+   "tags": []
+  },
+  {
+   "id": "seasonic-prime-tx-1600",
+   "category": "psu",
+   "name": "Seasonic Prime TX-1600 (ATX 3.1)",
+   "brand": "Seasonic",
+   "specs": {
+    "wattage": 1600,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Titanium",
+    "form": "ATX"
+   },
+   "price_usd": 520,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Top-tier workstation power",
+   "tags": []
+  },
+  {
+   "id": "corsair-sf750-sfx",
+   "category": "psu",
+   "name": "Corsair SF750 (2024) SFX",
+   "brand": "Corsair",
+   "specs": {
+    "wattage": 750,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Platinum",
+    "form": "SFX"
+   },
+   "price_usd": 180,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Small-form-factor builds",
+   "tags": []
+  },
+  {
+   "id": "corsair-sf1000-sfx",
+   "category": "psu",
+   "name": "Corsair SF1000 SFX",
+   "brand": "Corsair",
+   "specs": {
+    "wattage": 1000,
+    "atx_version": "ATX 3.1",
+    "connector_12v2x6": true,
+    "efficiency": "80+ Platinum",
+    "form": "SFX"
+   },
+   "price_usd": 260,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Small builds with big GPUs",
+   "tags": []
+  },
+  {
+   "id": "thermalright-peerless-assassin-120-se",
+   "category": "cooler",
+   "name": "Thermalright Peerless Assassin 120 SE",
+   "brand": "Thermalright",
+   "specs": {
+    "type": "air",
+    "height_mm": 155,
+    "radiator_mm": null,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 220
+   },
+   "price_usd": 40,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best-value air cooler",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "thermalright-phantom-spirit-120-evo",
+   "category": "cooler",
+   "name": "Thermalright Phantom Spirit 120 EVO",
+   "brand": "Thermalright",
+   "specs": {
+    "type": "air",
+    "height_mm": 157,
+    "radiator_mm": null,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 260
+   },
+   "price_usd": 60,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Strong air cooling for 16-core chips",
+   "tags": []
+  },
+  {
+   "id": "noctua-nh-l12sx77",
+   "category": "cooler",
+   "name": "Noctua NH-L12Sx77",
+   "brand": "Noctua",
+   "specs": {
+    "type": "air",
+    "height_mm": 77,
+    "radiator_mm": null,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 95
+   },
+   "price_usd": 75,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Low-profile for small cases",
+   "tags": [
+    "itx"
+   ]
+  },
+  {
+   "id": "noctua-nh-u12a-chromax-black",
+   "category": "cooler",
+   "name": "Noctua NH-U12A chromax.black",
+   "brand": "Noctua",
+   "specs": {
+    "type": "air",
+    "height_mm": 158,
+    "radiator_mm": null,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 230
+   },
+   "price_usd": 160,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Quiet premium air cooler",
+   "tags": []
+  },
+  {
+   "id": "noctua-nh-d15-g2",
+   "category": "cooler",
+   "name": "Noctua NH-D15 G2",
+   "brand": "Noctua",
+   "specs": {
+    "type": "air",
+    "height_mm": 168,
+    "radiator_mm": null,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 280
+   },
+   "price_usd": 150,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "The best air cooler, near-silent",
+   "tags": []
+  },
+  {
+   "id": "arctic-liquid-freezer-iii-pro-240",
+   "category": "cooler",
+   "name": "Arctic Liquid Freezer III Pro 240",
+   "brand": "Arctic",
+   "specs": {
+    "type": "aio",
+    "height_mm": null,
+    "radiator_mm": 240,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 250
+   },
+   "price_usd": 90,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Compact liquid cooling",
+   "tags": []
+  },
+  {
+   "id": "arctic-liquid-freezer-iii-pro-360",
+   "category": "cooler",
+   "name": "Arctic Liquid Freezer III Pro 360",
+   "brand": "Arctic",
+   "specs": {
+    "type": "aio",
+    "height_mm": null,
+    "radiator_mm": 360,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 320
+   },
+   "price_usd": 110,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Cool and quiet for any mainstream CPU",
+   "tags": []
+  },
+  {
+   "id": "corsair-icue-link-titan-360-rx",
+   "category": "cooler",
+   "name": "Corsair iCUE Link Titan 360 RX",
+   "brand": "Corsair",
+   "specs": {
+    "type": "aio",
+    "height_mm": null,
+    "radiator_mm": 360,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 320
+   },
+   "price_usd": 200,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Premium 360 mm with RGB",
+   "tags": []
+  },
+  {
+   "id": "nzxt-kraken-elite-360",
+   "category": "cooler",
+   "name": "NZXT Kraken Elite 360 (2024)",
+   "brand": "NZXT",
+   "specs": {
+    "type": "aio",
+    "height_mm": null,
+    "radiator_mm": 360,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 320
+   },
+   "price_usd": 280,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "360 mm with an LCD screen",
+   "tags": []
+  },
+  {
+   "id": "arctic-liquid-freezer-iii-pro-420",
+   "category": "cooler",
+   "name": "Arctic Liquid Freezer III Pro 420",
+   "brand": "Arctic",
+   "specs": {
+    "type": "aio",
+    "height_mm": null,
+    "radiator_mm": 420,
+    "sockets": [
+     "AM4",
+     "AM5",
+     "LGA1700",
+     "LGA1851"
+    ],
+    "max_tdp_w": 360
+   },
+   "price_usd": 140,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Maximum cooling for hot 16-core chips",
+   "tags": []
+  },
+  {
+   "id": "noctua-nh-u14s-tr5-sp6",
+   "category": "cooler",
+   "name": "Noctua NH-U14S TR5-SP6",
+   "brand": "Noctua",
+   "specs": {
+    "type": "air",
+    "height_mm": 165,
+    "radiator_mm": null,
+    "sockets": [
+     "sTR5"
+    ],
+    "max_tdp_w": 350
+   },
+   "price_usd": 160,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Threadripper air cooling",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "arctic-freezer-4u-m-rev-2",
+   "category": "cooler",
+   "name": "Arctic Freezer 4U-M Rev. 2",
+   "brand": "Arctic",
+   "specs": {
+    "type": "air",
+    "height_mm": 158,
+    "radiator_mm": null,
+    "sockets": [
+     "sTR5"
+    ],
+    "max_tdp_w": 350
+   },
+   "price_usd": 80,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Value Threadripper cooler",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "silverstone-xe360-tr5",
+   "category": "cooler",
+   "name": "SilverStone XE360-TR5",
+   "brand": "SilverStone",
+   "specs": {
+    "type": "aio",
+    "height_mm": null,
+    "radiator_mm": 360,
+    "sockets": [
+     "sTR5"
+    ],
+    "max_tdp_w": 500
+   },
+   "price_usd": 260,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Liquid cooling for Threadripper",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "lian-li-lancool-217",
+   "category": "case",
+   "name": "Lian Li Lancool 217",
+   "brand": "Lian Li",
+   "specs": {
+    "form_factor": "ATX",
+    "supports": [
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 400,
+    "max_cooler_mm": 180,
+    "max_radiator_mm": 360,
+    "psu_form": "ATX"
+   },
+   "price_usd": 120,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Airflow mid-tower, great value",
+   "tags": []
+  },
+  {
+   "id": "phanteks-xt-pro-ultra",
+   "category": "case",
+   "name": "Phanteks XT Pro Ultra",
+   "brand": "Phanteks",
+   "specs": {
+    "form_factor": "ATX",
+    "supports": [
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 415,
+    "max_cooler_mm": 184,
+    "max_radiator_mm": 360,
+    "psu_form": "ATX"
+   },
+   "price_usd": 90,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Budget mid-tower with great airflow",
+   "tags": [
+    "budget"
+   ]
+  },
+  {
+   "id": "fractal-design-north",
+   "category": "case",
+   "name": "Fractal Design North",
+   "brand": "Fractal Design",
+   "specs": {
+    "form_factor": "ATX",
+    "supports": [
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 355,
+    "max_cooler_mm": 170,
+    "max_radiator_mm": 360,
+    "psu_form": "ATX"
+   },
+   "price_usd": 150,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Wood-front, living-room friendly",
+   "tags": []
+  },
+  {
+   "id": "nzxt-h7-flow",
+   "category": "case",
+   "name": "NZXT H7 Flow (2024)",
+   "brand": "NZXT",
+   "specs": {
+    "form_factor": "ATX",
+    "supports": [
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 400,
+    "max_cooler_mm": 185,
+    "max_radiator_mm": 360,
+    "psu_form": "ATX"
+   },
+   "price_usd": 140,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Clean, airy mid-tower",
+   "tags": []
+  },
+  {
+   "id": "lian-li-o11-dynamic-evo-xl",
+   "category": "case",
+   "name": "Lian Li O11 Dynamic EVO XL",
+   "brand": "Lian Li",
+   "specs": {
+    "form_factor": "E-ATX",
+    "supports": [
+     "E-ATX",
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 460,
+    "max_cooler_mm": 167,
+    "max_radiator_mm": 420,
+    "psu_form": "ATX"
+   },
+   "price_usd": 230,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Showcase glass case, fits anything",
+   "tags": []
+  },
+  {
+   "id": "fractal-design-meshify-2",
+   "category": "case",
+   "name": "Fractal Design Meshify 2",
+   "brand": "Fractal Design",
+   "specs": {
+    "form_factor": "E-ATX",
+    "supports": [
+     "E-ATX",
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 467,
+    "max_cooler_mm": 185,
+    "max_radiator_mm": 360,
+    "psu_form": "ATX"
+   },
+   "price_usd": 170,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Big airflow tower for hot GPUs",
+   "tags": []
+  },
+  {
+   "id": "fractal-design-torrent",
+   "category": "case",
+   "name": "Fractal Design Torrent",
+   "brand": "Fractal Design",
+   "specs": {
+    "form_factor": "E-ATX",
+    "supports": [
+     "E-ATX",
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 461,
+    "max_cooler_mm": 188,
+    "max_radiator_mm": 420,
+    "psu_form": "ATX"
+   },
+   "price_usd": 210,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best-in-class GPU cooling",
+   "tags": []
+  },
+  {
+   "id": "be-quiet-silent-base-802",
+   "category": "case",
+   "name": "be quiet! Silent Base 802",
+   "brand": "be quiet!",
+   "specs": {
+    "form_factor": "E-ATX",
+    "supports": [
+     "E-ATX",
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 432,
+    "max_cooler_mm": 185,
+    "max_radiator_mm": 420,
+    "psu_form": "ATX"
+   },
+   "price_usd": 190,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Quiet tower for offices and studios",
+   "tags": []
+  },
+  {
+   "id": "phanteks-enthoo-pro-2-server",
+   "category": "case",
+   "name": "Phanteks Enthoo Pro 2 Server Edition",
+   "brand": "Phanteks",
+   "specs": {
+    "form_factor": "E-ATX",
+    "supports": [
+     "E-ATX",
+     "SSI-EEB",
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 503,
+    "max_cooler_mm": 195,
+    "max_radiator_mm": 480,
+    "psu_form": "ATX"
+   },
+   "price_usd": 190,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Workstation full tower",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "fractal-design-define-7-xl",
+   "category": "case",
+   "name": "Fractal Design Define 7 XL",
+   "brand": "Fractal Design",
+   "specs": {
+    "form_factor": "E-ATX",
+    "supports": [
+     "E-ATX",
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 491,
+    "max_cooler_mm": 185,
+    "max_radiator_mm": 420,
+    "psu_form": "ATX"
+   },
+   "price_usd": 260,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Silent full tower for workstations",
+   "tags": [
+    "workstation"
+   ]
+  },
+  {
+   "id": "corsair-3500x",
+   "category": "case",
+   "name": "Corsair 3500X",
+   "brand": "Corsair",
+   "specs": {
+    "form_factor": "ATX",
+    "supports": [
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 410,
+    "max_cooler_mm": 170,
+    "max_radiator_mm": 360,
+    "psu_form": "ATX"
+   },
+   "price_usd": 100,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Panoramic glass on a budget",
+   "tags": []
+  },
+  {
+   "id": "lian-li-a3-matx",
+   "category": "case",
+   "name": "Lian Li A3-mATX",
+   "brand": "Lian Li",
+   "specs": {
+    "form_factor": "mATX",
+    "supports": [
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 415,
+    "max_cooler_mm": 165,
+    "max_radiator_mm": 360,
+    "psu_form": "ATX"
+   },
+   "price_usd": 80,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Compact mATX that fits big GPUs",
+   "tags": []
+  },
+  {
+   "id": "cooler-master-nr200p-v2",
+   "category": "case",
+   "name": "Cooler Master NR200P V2",
+   "brand": "Cooler Master",
+   "specs": {
+    "form_factor": "ITX",
+    "supports": [
+     "ITX"
+    ],
+    "max_gpu_mm": 336,
+    "max_cooler_mm": 67,
+    "max_radiator_mm": 280,
+    "psu_form": "SFX"
+   },
+   "price_usd": 120,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Small ITX build that still fits big GPUs",
+   "tags": [
+    "itx"
+   ]
+  },
+  {
+   "id": "fractal-design-terra",
+   "category": "case",
+   "name": "Fractal Design Terra",
+   "brand": "Fractal Design",
+   "specs": {
+    "form_factor": "ITX",
+    "supports": [
+     "ITX"
+    ],
+    "max_gpu_mm": 322,
+    "max_cooler_mm": 77,
+    "max_radiator_mm": 0,
+    "psu_form": "SFX"
+   },
+   "price_usd": 180,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Tiny, beautiful ITX case",
+   "tags": [
+    "itx"
+   ]
+  },
+  {
+   "id": "none",
+   "category": "wifi",
+   "name": "None (use the motherboard's Wi-Fi or Ethernet)",
+   "brand": "",
+   "specs": {},
+   "price_usd": 0,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Most builds: boards here include Wi-Fi",
+   "tags": []
+  },
+  {
+   "id": "tp-link-archer-txe72e-wi-fi-6e-pcie-card",
+   "category": "wifi",
+   "name": "TP-Link Archer TXE72E Wi-Fi 6E PCIe card",
+   "brand": "TP-Link",
+   "specs": {
+    "standard": "Wi-Fi 6E"
+   },
+   "price_usd": 60,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Adds Wi-Fi + Bluetooth to boards without it",
+   "tags": []
+  },
+  {
+   "id": "asus-pce-be92bt-wi-fi-7-pcie-card",
+   "category": "wifi",
+   "name": "ASUS PCE-BE92BT Wi-Fi 7 PCIe card",
+   "brand": "ASUS",
+   "specs": {
+    "standard": "Wi-Fi 7"
+   },
+   "price_usd": 110,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Fastest Wi-Fi 7 for boards without it",
+   "tags": []
+  },
+  {
+   "id": "windows-11-pro",
+   "category": "os",
+   "name": "Windows 11 Pro",
+   "brand": "Microsoft",
+   "specs": {
+    "os": "windows"
+   },
+   "price_usd": 199,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Games, Office apps and most AI apps",
+   "tags": []
+  },
+  {
+   "id": "ubuntu-24-04-lts-free",
+   "category": "os",
+   "name": "Ubuntu 24.04 LTS (free)",
+   "brand": "Canonical",
+   "specs": {
+    "os": "linux"
+   },
+   "price_usd": 0,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Best for AI: fastest setup, ROCm/CUDA ready",
+   "tags": []
+  },
+  {
+   "id": "dual-boot-windows-11-pro-ubuntu",
+   "category": "os",
+   "name": "Dual-boot: Windows 11 Pro + Ubuntu",
+   "brand": "Microsoft / Canonical",
+   "specs": {
+    "os": "dual"
+   },
+   "price_usd": 199,
+   "price_note": "est. street price Nov 2026",
+   "best_for": "Games on Windows, AI on Linux",
+   "tags": []
+  }
+ ]
+}
