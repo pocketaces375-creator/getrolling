@@ -3035,6 +3035,32 @@
    ]
   },
   {
+   "id": "getrolling-wall-showpiece",
+   "category": "case",
+   "name": "GetRolling Signature Wall-Mount Showpiece",
+   "brand": "GetRolling",
+   "specs": {
+    "form_factor": "E-ATX",
+    "supports": [
+     "E-ATX",
+     "ATX",
+     "mATX",
+     "ITX"
+    ],
+    "max_gpu_mm": 450,
+    "max_cooler_mm": 200,
+    "max_radiator_mm": 420,
+    "psu_form": "ATX"
+   },
+   "price_usd": 10000,
+   "no_fee": true,
+   "price_note": "flat price, custom build",
+   "best_for": "Hand-built wall-mounted display: glass front, custom hardline water cooling, sleeved cables, cyan lighting. Ships ready to hang.",
+   "tags": [
+    "showpiece"
+   ]
+  },
+  {
    "id": "none",
    "category": "wifi",
    "name": "None (use the motherboard's Wi-Fi or Ethernet)",
