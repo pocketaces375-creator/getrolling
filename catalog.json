@@ -1,8 +1,8 @@
 {
- "prices_as_of": "2026-11",
+ "prices_as_of": "2026-11-05",
  "prices_are_estimates": true,
  "currency": "USD",
- "notes": "Estimated US street prices during the 2026 DRAM/NAND shortage. All parts are new with full manufacturer warranty. Verify before ordering.",
+ "notes": "Estimated US street prices as of Nov 5, 2026, during the 2026 DRAM/NAND shortage: typical in-stock price for a new part, not MSRP. GPU, RAM and SSD prices are volatile; ranges are in each part's note. All parts are new with full manufacturer warranty. Exact price is confirmed before ordering.",
  "categories": [
   {
    "id": "gpu",
@@ -167,8 +167,8 @@
     "chip": "RTX 5060 Ti 16GB",
     "vendor": "NVIDIA"
    },
-   "price_usd": 600,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 800,
+   "price_note": "est. Nov 2026; range $789–900",
    "best_for": "Best new starter card for AI images and chat",
    "tags": [
     "16gb",
@@ -188,8 +188,8 @@
     "chip": "RTX 5060 Ti 16GB",
     "vendor": "NVIDIA"
    },
-   "price_usd": 620,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 830,
+   "price_note": "est. Nov 2026; range $789–900",
    "best_for": "Starter AI with a quieter dual-fan cooler",
    "tags": [
     "16gb",
@@ -209,8 +209,8 @@
     "chip": "RTX 5070",
     "vendor": "NVIDIA"
    },
-   "price_usd": 580,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 820,
+   "price_note": "est. Nov 2026; limited stock (FE); partner cards from ~$789",
    "best_for": "1440p gaming; light AI (12 GB)",
    "tags": [
     "gaming"
@@ -229,8 +229,8 @@
     "chip": "RTX 5070 Ti",
     "vendor": "NVIDIA"
    },
-   "price_usd": 1000,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1400,
+   "price_note": "est. Nov 2026; range $1,300–1,600",
    "best_for": "Fast 16 GB for images, video and gaming",
    "tags": [
     "16gb",
@@ -250,8 +250,8 @@
     "chip": "RTX 5070 Ti",
     "vendor": "NVIDIA"
    },
-   "price_usd": 1080,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1500,
+   "price_note": "est. Nov 2026; range $1,300–1,600",
    "best_for": "Fast 16 GB, very quiet cooler",
    "tags": [
     "16gb",
@@ -271,8 +271,8 @@
     "chip": "RTX 5080",
     "vendor": "NVIDIA"
    },
-   "price_usd": 1400,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1900,
+   "price_note": "est. Nov 2026; limited stock (FE); range $1,580–2,200",
    "best_for": "Top 4K gaming plus fast AI",
    "tags": [
     "16gb",
@@ -292,8 +292,8 @@
     "chip": "RTX 5080",
     "vendor": "NVIDIA"
    },
-   "price_usd": 1480,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 2000,
+   "price_note": "est. Nov 2026; range $1,580–2,200",
    "best_for": "4K gaming + AI, cool and quiet",
    "tags": [
     "16gb",
@@ -313,8 +313,8 @@
     "chip": "RTX 5090",
     "vendor": "NVIDIA"
    },
-   "price_usd": 3500,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 5800,
+   "price_note": "est. Nov 2026; limited stock (FE); range $5,000–7,500",
    "best_for": "Fastest consumer AI card: 32 GB for video, LLMs, training",
    "tags": [
     "32gb",
@@ -334,8 +334,8 @@
     "chip": "RTX 5090",
     "vendor": "NVIDIA"
    },
-   "price_usd": 3700,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 6500,
+   "price_note": "est. Nov 2026; range $5,000–7,500",
    "best_for": "32 GB flagship with a big quiet cooler",
    "tags": [
     "32gb",
@@ -356,8 +356,8 @@
     "vendor": "NVIDIA",
     "ecc": true
    },
-   "price_usd": 1800,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 2300,
+   "price_note": "est. Nov 2026; range $1,950–2,500",
    "best_for": "24 GB in a single-slot, 140 W pro card",
    "tags": [
     "workstation",
@@ -379,8 +379,8 @@
     "vendor": "NVIDIA",
     "ecc": true
    },
-   "price_usd": 3000,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 5000,
+   "price_note": "est. Nov 2026; lowest in-stock ~$4,900",
    "best_for": "32 GB pro card at only 200 W",
    "tags": [
     "workstation",
@@ -401,8 +401,8 @@
     "vendor": "NVIDIA",
     "ecc": true
    },
-   "price_usd": 6500,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 8800,
+   "price_note": "est. Nov 2026; lowest in-stock ~$8,600",
    "best_for": "48 GB for 70B-class LLMs and serious training",
    "tags": [
     "workstation",
@@ -423,8 +423,8 @@
     "vendor": "NVIDIA",
     "ecc": true
    },
-   "price_usd": 9800,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 12500,
+   "price_note": "est. Nov 2026; limited stock; few listings",
    "best_for": "72 GB: huge models without the 6000 price",
    "tags": [
     "workstation",
@@ -445,8 +445,8 @@
     "vendor": "NVIDIA",
     "ecc": true
    },
-   "price_usd": 7200,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 9500,
+   "price_note": "est. Nov 2026; limited stock (previous gen)",
    "best_for": "Proven 48 GB pro card (previous generation)",
    "tags": [
     "workstation",
@@ -467,8 +467,8 @@
     "vendor": "NVIDIA",
     "ecc": true
    },
-   "price_usd": 10500,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 16500,
+   "price_note": "est. Nov 2026; range $16,000–18,000",
    "best_for": "96 GB at 300 W: biggest models, quiet blower",
    "tags": [
     "workstation",
@@ -489,8 +489,8 @@
     "vendor": "NVIDIA",
     "ecc": true
    },
-   "price_usd": 11000,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 17000,
+   "price_note": "est. Nov 2026; range $16,000–18,000",
    "best_for": "The no-limits AI card: 96 GB, full 600 W speed",
    "tags": [
     "workstation",
@@ -511,8 +511,8 @@
     "chip": "RX 9060 XT 16GB",
     "vendor": "AMD"
    },
-   "price_usd": 420,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 520,
+   "price_note": "est. Nov 2026; few listings",
    "best_for": "Low-cost 16 GB (AMD/ROCm, best on Linux)",
    "tags": [
     "16gb",
@@ -532,8 +532,8 @@
     "chip": "RX 9070 XT",
     "vendor": "AMD"
    },
-   "price_usd": 680,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 900,
+   "price_note": "est. Nov 2026; range $820–1,050",
    "best_for": "Great 1440p/4K gaming; AI via ROCm on Linux",
    "tags": [
     "16gb",
@@ -554,8 +554,8 @@
     "chip": "RX 7900 XTX",
     "vendor": "AMD"
    },
-   "price_usd": 950,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1550,
+   "price_note": "est. Nov 2026; limited stock; range $1,400–1,820",
    "best_for": "24 GB AMD card; great on Linux with ROCm",
    "tags": [
     "24gb",
@@ -575,8 +575,8 @@
     "chip": "Radeon AI PRO R9700",
     "vendor": "AMD"
    },
-   "price_usd": 1400,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1350,
+   "price_note": "est. Nov 2026; ~$1,300",
    "best_for": "32 GB for local LLMs on a budget (ROCm, Linux)",
    "tags": [
     "32gb",
@@ -813,8 +813,8 @@
     "tdp_w": 120,
     "igpu": true
    },
-   "price_usd": 480,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 460,
+   "price_note": "est. Nov 2026; range $420–480",
    "best_for": "The fastest gaming CPU",
    "tags": [
     "gaming"
@@ -868,8 +868,8 @@
     "tdp_w": 170,
     "igpu": true
    },
-   "price_usd": 560,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 540,
+   "price_note": "est. Nov 2026; range $500–550",
    "best_for": "Best mainstream CPU for AI + content work",
    "tags": []
   },
@@ -885,8 +885,8 @@
     "tdp_w": 170,
     "igpu": true
    },
-   "price_usd": 675,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 690,
+   "price_note": "est. Nov 2026; ~$699 list",
    "best_for": "16 cores and top-tier gaming",
    "tags": [
     "gaming"
@@ -1000,8 +1000,8 @@
     "tdp_w": 350,
     "igpu": false
    },
-   "price_usd": 2600,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 2550,
+   "price_note": "est. Nov 2026; ~$2,499 list",
    "best_for": "32-core Zen 5 AI workstation",
    "tags": [
     "workstation"
@@ -1741,8 +1741,8 @@
     "speed_mts": 3200,
     "ecc": false
    },
-   "price_usd": 210,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 260,
+   "price_note": "est. Nov 2026",
    "best_for": "Budget AM4 / DDR4 Intel builds",
    "tags": [
     "budget"
@@ -1760,8 +1760,8 @@
     "speed_mts": 3600,
     "ecc": false
    },
-   "price_usd": 400,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 500,
+   "price_note": "est. Nov 2026; ~$500",
    "best_for": "Bigger datasets on DDR4 boards",
    "tags": []
   },
@@ -1777,8 +1777,8 @@
     "speed_mts": 3200,
     "ecc": false
    },
-   "price_usd": 820,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1000,
+   "price_note": "est. Nov 2026",
    "best_for": "Max memory on DDR4 boards",
    "tags": []
   },
@@ -1794,8 +1794,8 @@
     "speed_mts": 6000,
     "ecc": false
    },
-   "price_usd": 380,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 520,
+   "price_note": "est. Nov 2026; range $475–600",
    "best_for": "Starter AI and gaming",
    "tags": [
     "starter"
@@ -1813,8 +1813,8 @@
     "speed_mts": 6000,
     "ecc": false
    },
-   "price_usd": 400,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 550,
+   "price_note": "est. Nov 2026; range $475–600",
    "best_for": "Fast gaming memory tuned for AMD",
    "tags": [
     "gaming"
@@ -1832,8 +1832,8 @@
     "speed_mts": 6000,
     "ecc": false
    },
-   "price_usd": 760,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1250,
+   "price_note": "est. Nov 2026; range $1,060–1,400",
    "best_for": "Creators: run bigger models on CPU + GPU",
    "tags": []
   },
@@ -1849,8 +1849,8 @@
     "speed_mts": 6000,
     "ecc": false
    },
-   "price_usd": 1100,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1200,
+   "price_note": "est. Nov 2026; range $950–1,350",
    "best_for": "Large LLMs with offloading",
    "tags": []
   },
@@ -1866,8 +1866,8 @@
     "speed_mts": 5600,
     "ecc": false
    },
-   "price_usd": 1550,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 2300,
+   "price_note": "est. Nov 2026; range $1,850–2,800",
    "best_for": "128 GB in just two sticks",
    "tags": []
   },
@@ -1883,8 +1883,8 @@
     "speed_mts": 5600,
     "ecc": false
    },
-   "price_usd": 1600,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 2300,
+   "price_note": "est. Nov 2026; range $2,150–2,800",
    "best_for": "128 GB for heavy multitasking",
    "tags": []
   },
@@ -1900,8 +1900,8 @@
     "speed_mts": 5200,
     "ecc": false
    },
-   "price_usd": 2300,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 3400,
+   "price_note": "est. Nov 2026; few listings",
    "best_for": "Very large models in system RAM",
    "tags": []
   },
@@ -1917,8 +1917,8 @@
     "speed_mts": 5600,
     "ecc": false
    },
-   "price_usd": 3100,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 4500,
+   "price_note": "est. Nov 2026; limited stock",
    "best_for": "Max memory on AM5 / Core Ultra",
    "tags": []
   },
@@ -1934,8 +1934,8 @@
     "speed_mts": 6400,
     "ecc": true
    },
-   "price_usd": 2400,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 4400,
+   "price_note": "est. Nov 2026; RDIMM ~$1,000–1,300 per 32GB stick",
    "best_for": "Threadripper: error-correcting workstation memory",
    "tags": [
     "workstation"
@@ -1953,8 +1953,8 @@
     "speed_mts": 6000,
     "ecc": true
    },
-   "price_usd": 4600,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 8800,
+   "price_note": "est. Nov 2026; RDIMM ~$2,050–2,750 per 64GB stick",
    "best_for": "Big-data Threadripper workstations",
    "tags": [
     "workstation"
@@ -1972,8 +1972,8 @@
     "speed_mts": 6000,
     "ecc": true
    },
-   "price_usd": 9800,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 18500,
+   "price_note": "est. Nov 2026; limited stock",
    "best_for": "Huge in-memory AI on Threadripper",
    "tags": [
     "workstation"
@@ -1990,8 +1990,8 @@
     "pcie_gen": 4,
     "read_mbs": 7250
    },
-   "price_usd": 150,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 170,
+   "price_note": "est. Nov 2026",
    "best_for": "Basic boot drive",
    "tags": []
   },
@@ -2006,8 +2006,8 @@
     "pcie_gen": 4,
     "read_mbs": 7450
    },
-   "price_usd": 210,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 260,
+   "price_note": "est. Nov 2026",
    "best_for": "Fast boot drive",
    "tags": []
   },
@@ -2022,8 +2022,8 @@
     "pcie_gen": 4,
     "read_mbs": 7250
    },
-   "price_usd": 280,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 320,
+   "price_note": "est. Nov 2026; range $285–340",
    "best_for": "Room for a few AI models",
    "tags": [
     "starter"
@@ -2040,8 +2040,8 @@
     "pcie_gen": 4,
     "read_mbs": 7450
    },
-   "price_usd": 400,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 390,
+   "price_note": "est. Nov 2026; ~$389",
    "best_for": "Fast, reliable 2 TB",
    "tags": []
   },
@@ -2056,8 +2056,8 @@
     "pcie_gen": 5,
     "read_mbs": 14500
    },
-   "price_usd": 480,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 460,
+   "price_note": "est. Nov 2026",
    "best_for": "Gen5 speed for fast model loading",
    "tags": []
   },
@@ -2072,8 +2072,8 @@
     "pcie_gen": 4,
     "read_mbs": 7300
    },
-   "price_usd": 560,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 670,
+   "price_note": "est. Nov 2026; range $590–700",
    "best_for": "Plenty of room for models and projects",
    "tags": []
   },
@@ -2088,8 +2088,8 @@
     "pcie_gen": 4,
     "read_mbs": 7450
    },
-   "price_usd": 720,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 800,
+   "price_note": "est. Nov 2026; ~$799",
    "best_for": "Premium 4 TB for creators",
    "tags": []
   },
@@ -2104,8 +2104,8 @@
     "pcie_gen": 5,
     "read_mbs": 14800
    },
-   "price_usd": 900,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1150,
+   "price_note": "est. Nov 2026; range $1,050–1,360",
    "best_for": "Fastest 4 TB: loads big models in seconds",
    "tags": []
   },
@@ -2120,8 +2120,8 @@
     "pcie_gen": 5,
     "read_mbs": 14100
    },
-   "price_usd": 860,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1050,
+   "price_note": "est. Nov 2026",
    "best_for": "Gen5 4 TB for heavy datasets",
    "tags": []
   },
@@ -2136,8 +2136,8 @@
     "pcie_gen": 4,
     "read_mbs": 7250
    },
-   "price_usd": 520,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 580,
+   "price_note": "est. Nov 2026",
    "best_for": "Value 4 TB",
    "tags": []
   },
@@ -2152,8 +2152,8 @@
     "pcie_gen": 4,
     "read_mbs": 7200
    },
-   "price_usd": 1300,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1600,
+   "price_note": "est. Nov 2026; limited stock",
    "best_for": "Huge model and video library",
    "tags": []
   },
@@ -2168,8 +2168,8 @@
     "pcie_gen": 4,
     "read_mbs": 7100
    },
-   "price_usd": 1250,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 1500,
+   "price_note": "est. Nov 2026; limited stock",
    "best_for": "8 TB of fast storage",
    "tags": []
   },
@@ -2184,8 +2184,8 @@
     "pcie_gen": 5,
     "read_mbs": 14800
    },
-   "price_usd": 1700,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 2250,
+   "price_note": "est. Nov 2026; ~$2,250",
    "best_for": "Fastest 8 TB available",
    "tags": []
   },
@@ -2388,8 +2388,8 @@
     "efficiency": "80+ Titanium",
     "form": "ATX"
    },
-   "price_usd": 520,
-   "price_note": "est. street price Nov 2026",
+   "price_usd": 550,
+   "price_note": "est. Nov 2026; $533–560",
    "best_for": "Top-tier workstation power",
    "tags": []
   },
