@@ -189,6 +189,25 @@ section.slim{padding:44px 0}
  .avatar{width:180px;height:180px;font-size:64px}
 }
 @media (max-width:600px){.leadband form{grid-template-columns:1fr}.grid4{grid-template-columns:1fr}.gift .gtop{height:58px;margin-bottom:14px}}
+
+/* ---- dark mode (toggle under the logo; light is the default) ---- */
+html[data-theme=dark]{--bg:#0b0d12;--card:#151821;--ink:#f2f2f5;--mut:#a3a3ad;--line:#2a2e3a;color-scheme:dark}
+html[data-theme=dark] body{background:#0b0d12;color:var(--ink)}
+html[data-theme=dark] nav{background:rgba(11,13,18,.78);border-bottom-color:rgba(255,255,255,.08)}
+html[data-theme=dark] .btn.line{background:#151821;border-color:#3a3f4d;color:#f2f2f5}
+html[data-theme=dark] section.alt{background:#11141b}
+html[data-theme=dark] .card,html[data-theme=dark] .duo a,html[data-theme=dark] details,html[data-theme=dark] .learn div,html[data-theme=dark] .chips span{background:#151821;border-color:var(--line);box-shadow:0 2px 12px rgba(0,0,0,.4)}
+html[data-theme=dark] .inc-row span{background:#151821}
+html[data-theme=dark] input,html[data-theme=dark] select,html[data-theme=dark] textarea{background:#11141b;border-color:#3a3f4d;color:#f2f2f5}
+html[data-theme=dark] .builder input{background:rgba(21,24,33,.95)}
+html[data-theme=dark] .leadband .gico,html[data-theme=dark] .leadband .thanks{background:#151821}
+html[data-theme=dark] h1,html[data-theme=dark] h2,html[data-theme=dark] h3,html[data-theme=dark] h4{color:var(--ink)}
+.themerow{display:flex;justify-content:flex-start;padding-top:22px;position:relative;z-index:2}
+@media (max-width:700px){.themerow{padding-top:14px;margin-bottom:10px}}
+.themepick{display:inline-flex;align-items:center;gap:6px;margin:0;padding:5px;border:1px solid var(--line);border-radius:999px;background:var(--card);box-shadow:0 2px 12px rgba(0,0,0,.05);font-size:14px}
+.themepick span{color:var(--mut);padding:0 6px 0 10px;font-weight:600}
+.themepick button{border:0;background:transparent;color:var(--ink);font:600 14px/1 inherit;padding:9px 14px;border-radius:999px;cursor:pointer;transition:background .25s,color .25s}
+html:not([data-theme=dark]) .themepick .tp-l,html[data-theme=dark] .themepick .tp-d{background:linear-gradient(90deg,var(--brand),var(--brand2));color:#fff;box-shadow:0 4px 14px rgba(0,119,182,.3)}
 .todo{display:none!important}</style>
 <script>
 // ===== Settings Adam fills in (empty = placeholder / feature off) =====
@@ -214,6 +233,7 @@ if (CONFIG.metaPixelId) {
 }
 function track(ev, params){ if (CONFIG.metaPixelId && window.fbq) fbq('track', ev, params || {}); }
 </script>
+<script>try{if(localStorage.getItem('gr_theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
 </head>
 <body>
 
@@ -225,7 +245,10 @@ function track(ev, params){ if (CONFIG.metaPixelId && window.fbq) fbq('track', e
   </div>
 </div></nav>
 
-<header class="hero" id="top"><div class="wrap grid">
+<header class="hero" id="top"><div class="wrap themerow">
+  <div class="themepick" role="group" aria-label="Choose light or dark mode"><span>Pick your look:</span>
+      <button type="button" class="tp-l" data-t="light">☀ Light</button><button type="button" class="tp-d" data-t="dark">☾ Dark</button></div>
+</div><div class="wrap grid">
   <div>
     <span class="pill">💻 Live on Zoom, anywhere in the world · in person in South Florida</span>
     <h1>Get rolling with <span>AI.</span><br>Taught by a real person.</h1>
@@ -491,5 +514,6 @@ function plan(e){e.preventDefault();const d=new FormData(e.target);track('Lead',
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('section .card,section h2,.shot,.split,.builder,.included').forEach(el=>{el.classList.add('reveal');io.observe(el)});
 </script>
+<script>document.querySelectorAll('.themepick button').forEach(function(b){b.onclick=function(){var dark=b.getAttribute('data-t')==='dark',d=document.documentElement;if(dark)d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('gr_theme',dark?'dark':'light')}catch(e){}}});</script>
 </body>
 </html>
